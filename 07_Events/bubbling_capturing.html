@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="div">
+        <button class="button">Touch me</button>
+    </div>
+    <script>
+        let div = document.querySelector('.div');
+        let button = document.querySelector('.button');
+        
+        // Capturing -> parent se child ki or
+        // Bubbling -> child se parent ki or
+        div.addEventListener('click', function(){
+            console.log("div clicked");
+        }, true)  // capturing phase (parebnt se child ki or) 
+
+        button.addEventListener('click', function(e){
+            console.log("button clicked");
+            e.stopPropagation() // taaki ye aage na badhe
+        }) 
+    </script>
+</body>
+</html>
