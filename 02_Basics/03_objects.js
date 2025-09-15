@@ -15,7 +15,7 @@ const JsUser={
     [mySym]:"myKey1", // to refer to String otherwise it refer to String
     age:20,
     location:"Mathura",
-    email:"gopal.varshney13@gmail.com",
+    email:"gopal@gmail.com",
     isLoggedIn: false,
     lastoginDays:["Monday","Wednesday","Thursday"]
 }
@@ -30,10 +30,10 @@ const JsUser={
 // console.log(JsUser["email"]);
 // console.log(JsUser[mySym]);
 
-// JsUser.email="gopal.varshney13@google.com";
+// JsUser.email="gopal@google.com";
 // console.log(JsUser);
 // Object.freeze(JsUser);
-// JsUser.email="gopal.varshney13@microsoft.com";
+// JsUser.email="gopal@microsoft.com";
 // console.log(JsUser);
 
 JsUser.greeting=function(){
@@ -45,5 +45,6 @@ JsUser.greeting2=function(){
 console.log(JsUser["greeting"]); // function execute nhi hua bas reference aya
 console.log(JsUser.greeting); // // function execute nhi hua bas reference aya
 console.log(JsUser.greeting());
+
 
 console.log(JsUser.greeting2());
