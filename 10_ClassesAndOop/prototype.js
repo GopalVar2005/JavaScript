@@ -56,11 +56,12 @@ Teacher.__proto__ = User // way 2
 Object.setPrototypeOf(TeachingSupport, Teacher); // (kisko, kiski)
  
 // 1st problem
-let anotherUsername="Hello     "
+let anotherUsername="Hello    "
 
 String.prototype.truelength=function(){
     console.log(this); // current reference string ka ha 
     console.log(this.trim().length);
 }
 anotherUsername.truelength();
+
 "hi  ".truelength();
