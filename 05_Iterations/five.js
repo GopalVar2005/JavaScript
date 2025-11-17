@@ -22,7 +22,7 @@ arr.forEach((item, index, arr)=>{
 // Database values
 const values=[
     {
-        name:"javascript",
+        name:"JavaScript",
         fileName:"js"
     },
     {
@@ -36,4 +36,5 @@ const values=[
 ]
 values.forEach((item)=>{
     console.log(item.name);
+
 })
