@@ -1,5 +1,5 @@
 const marvel=["Spiderman","Ironman","Loki"];
-const dc=["Batman","Superman","Flash"];
+const dc=["Batman","Superman","Thor"];
 
 // change the original array
 // marvel.push(dc);
@@ -27,4 +27,5 @@ console.log(Array.from({name:"gopal"})); // Output: [ <1 empty item> ], interest
 let score1=100;
 let score2=200;
 let score3=300;
+
 console.log(Array.of(score1, score2, score3)); // Output: [ 100, 200, 300 ]
