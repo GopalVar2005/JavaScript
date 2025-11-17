@@ -9,7 +9,7 @@ console.log(Math.PI) // no change
 // const myNewObject = Object.create(null);
 
 const chai = {
-    name: 'masala-chai',
+    name: 'chai',
     price: 20,
     isAvailable:true
 }
@@ -27,4 +27,5 @@ for(let [key, value] of Object.entries(chai)) // bcs functions are not iterable 
 }
 // name pr iterate nhi hua
 // price:20
+
 // isAvailable:true
