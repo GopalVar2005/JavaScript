@@ -15,7 +15,7 @@ const JsUser={
     [mySym]:"myKey1", // to refer to String otherwise it refer to String
     age:21,
     location:"Mathura",
-    email:"gopal@gmail.com",
+    email:"go@gmail.com",
     isLoggedIn: false,
     lastoginDays:["Monday","Wednesday","Thursday"]
 }
@@ -48,4 +48,5 @@ console.log(JsUser.greeting());
 
 
 console.log(JsUser.greeting2());
+
 
