@@ -5,7 +5,7 @@
 //Object.create
 
 // Literal Declaration
-// By-default: key->String, value->kuch bhi
+// By-default:  key->String, value->kuch bhi
 
 const mySym=Symbol("key1");
 
@@ -13,7 +13,7 @@ const JsUser={
     name:"Gopal",
     "full name":"Gopal Varshney",
     [mySym]:"myKey1", // to refer to String otherwise it refer to String
-    age:20,
+    age:21,
     location:"Mathura",
     email:"gopal@gmail.com",
     isLoggedIn: false,
@@ -48,3 +48,4 @@ console.log(JsUser.greeting());
 
 
 console.log(JsUser.greeting2());
+
